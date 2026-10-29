@@ -1,43 +1,3 @@
-# ✏️ Excalidraw Studio (Clone built with REA)
-
-A lightweight, high-performance, and modular clone of **Excalidraw** reverse-engineered and built from scratch using the **REA (Reverse Engineer Anything)** methodology.
-
-[![React 19](https://img.shields.io/badge/React-19-61dafb?style=flat-square&logo=react)](https://react.dev/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178c6?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
-[![Vite](https://img.shields.io/badge/Vite-8.x-646cff?style=flat-square&logo=vite)](https://vitejs.dev/)
-[![Rough.js](https://img.shields.io/badge/Rough.js-Hand--Drawn-f08c00?style=flat-square)](https://roughjs.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](LICENSE)
-
----
-
-## 🚀 Features
-
-- **Infinite Canvas & Focal Zooming:** Smooth panning and zooming centered precisely around the mouse pointer without drift.
-- **Hand-Drawn Aesthetics (`rough.js`):** Signature sketchy hand-drawn lines, rectangles, diamonds, ellipses, arrows, freehand pencil drawings, and text.
-- **Seeded Render Stability:** Stable deterministic random seeds per element to prevent jitter during 60 FPS viewport pans and selections.
-- **Element Manipulation:** Select, move, multi-select (marquee box & Shift-click), and 8-cardinal handle scaling.
-- **Visual Property Inspector:** Custom stroke/fill colors, fill styles (hachure, cross-hatch, solid, dots, zigzag), stroke width, stroke style, roughness (sloppiness), and opacity.
-- **Full Undo / Redo & Keybindings:** Multi-level history stacks with native hotkeys (`Ctrl+Z`, `Ctrl+Y`, `Ctrl+D`, `Delete`, `Escape`).
-- **Interoperable JSON & Image Export:** Standard `.excalidraw` JSON scene schema compatibility, crisp 2x/3x Retina PNG export, and direct clipboard copying with confetti.
-
----
-
-## ⚡ Quick Start
-
-```bash
-# Navigate to the app directory
-cd excalidraw-clone
-
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-```
-
-Open [http://localhost:5173](http://localhost:5173) in your browser.
-
----
 
 ## 🛠️ Step-by-Step: How to Clone Any Web App Using REA
 
@@ -91,24 +51,4 @@ You are an expert AI software architect and reverse-engineering specialist. Your
 - **Step 4 (Testing & Polish):** Ensure smooth 60 FPS performance, responsive styling, and clean export/persistence features.
 
 Begin by initializing the workspace, setting up the necessary dependencies, and outputting the architecture blueprint before writing the implementation files.
-```
-
----
-
-## 📂 Repository Structure
-
-```
-.
-├── excalidraw-clone/          # Reconstructed Excalidraw web application
-│   ├── src/
-│   │   ├── components/        # CanvasRenderer, Toolbar, PropertiesPanel, TopBar, ExportModal
-│   │   ├── utils/             # Coordinates math, hitTest, roughUtils, exportUtils, storage
-│   │   ├── useCanvasInteractions.ts  # Event state machine
-│   │   ├── types.ts           # Schema & TypeScript definitions
-│   │   ├── constants.ts       # Color palettes, styles, shortcuts
-│   │   ├── App.tsx            # Main application shell
-│   │   └── index.css          # Design system & visual styling
-│   └── package.json
-├── rea/                       # Cloned REA (Reverse Engineer Anything) toolkit
-└── README.md
 ```
