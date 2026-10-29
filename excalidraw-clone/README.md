@@ -6,7 +6,6 @@ A lightweight, high-performance, and modular clone of **Excalidraw** reverse-eng
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178c6?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
 [![Vite](https://img.shields.io/badge/Vite-8.x-646cff?style=flat-square&logo=vite)](https://vitejs.dev/)
 [![Rough.js](https://img.shields.io/badge/Rough.js-Hand--Drawn-f08c00?style=flat-square)](https://roughjs.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](LICENSE)
 
 ---
 
